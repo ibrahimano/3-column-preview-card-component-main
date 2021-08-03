@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3-column-preview-card-component-5_7qsj4HJ)
+- Live Site URL: [Live site](https://ibrahimano.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
@@ -47,7 +47,7 @@ Users should be able to:
 
 ### Continued development
 
-I need to focus more with units in css and undrstand more about the right way to use any units am working with, because i really got confused while using px and % when i was working with the flexbox.
+I need to focus more with units in css and understand more about the right way to use any units am working with, because i really got confused while using px and % when i was working with the flexbox.
 
 
 ## Author

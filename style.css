@@ -1,0 +1,207 @@
+/*font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;*/
+
+body
+{
+	background:  hsl(0, 0%, 95%);
+	font-size: 15px;
+	text-align: left;
+	color: white;
+	line-height: 1.5;
+}
+
+
+.flex-card
+{
+	margin: 3% 0%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.card
+{
+	
+	padding: 80px 50px 30px 40px;
+	width: 249.5px;
+	height: 400px;
+}
+
+
+.card-1
+{
+	background: hsl(31, 77%, 52%);
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.card-2
+{
+	background: hsl(184, 100%, 22%);
+}
+
+.card-3
+{
+	background: hsl(179, 100%, 13%);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+
+header
+{
+	width: 250px;
+	height: 400px;
+	margin: -13% 4% 0 3%;
+}
+
+.title
+{
+	color: hsl(0, 0%, 95%);
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.paragraph
+{
+	color: hsla(0, 0%, 100%, 0.75);
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 17px;
+	width: 100%;
+	
+}
+
+.btn
+{
+	margin-top: 60px;
+	padding: 6% 14%;
+	border-radius: 50px;
+	background: hsl(0, 0%, 95%);
+	border: 2px solid hsl(0, 0%, 95%);
+	font-family: 'Lexend Deca', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	font-size: 17px;
+
+}
+
+.btn-1
+{
+	color: hsl(31, 77%, 52%);
+}
+
+.btn-2
+{
+	color: hsl(184, 100%, 22%);
+}
+
+.btn-3
+{
+	color: hsl(179, 100%, 13%);
+}
+
+.btn:hover
+{
+	cursor: pointer;
+	background: transparent;
+	color: hsl(0, 0%, 95%);
+
+}
+
+
+.attribution
+{
+	font-family: 'Lexend Deca', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.attribution a 
+{
+	text-decoration: none;
+	color: royalblue;
+}
+
+.attribution a:hover
+{
+	color: indianred;
+}
+
+/*-------------------- RESPONSIVE --------------------*/
+@media screen and (max-width: 1034px) {
+
+	.flex-card
+	{
+		margin: 15% 20%;
+		height: 80%;
+		width: 60%;
+		flex-direction:column;
+	}
+
+	.card
+	{
+		padding: 10% 10% 12% 10%;
+		width: 80%;
+		height: 33%;
+		border-radius: 0;
+	}
+
+	header
+	{
+		margin: 0 4% 0 4%;
+		width: 92%;
+	}
+
+	.card-1
+	{
+
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+
+	.card-3
+	{
+
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+
+	.btn
+	{
+		margin-top: 60px;
+	}
+
+}
+
+
+
+
+
+
+
+/*-------------------- MOBILE --------------------*/
+@media screen and (max-width: 533px)
+{
+	.flex-card
+	{
+		margin: 15% 8%;
+		width: 260px;
+	}
+
+	.card
+	{
+		width: 260px;
+	}
+
+	.title
+	{
+		font-size: 40px;
+	}
+
+	.paragraph
+	{
+		font-size: 16px;
+		
+	}
+}
